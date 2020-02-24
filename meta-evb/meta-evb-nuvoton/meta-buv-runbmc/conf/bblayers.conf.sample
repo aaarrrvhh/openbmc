@@ -23,3 +23,7 @@ BBLAYERS_NON_REMOVABLE ?= " \
   ##OEROOT##/meta-nuvoton \
   ##OEROOT##/meta-evb/meta-evb-nuvoton/meta-buv-runbmc \
   "
+
+DL_DIR="/media/froot/HDD2nd/project/runbmc_branch/downloads"
+SSTATE_DIR="/media/froot/HDD2nd/project/runbmc_branch/sstate-cache"
+BB_NUMBER_THREADS="2"
